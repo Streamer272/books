@@ -1,11 +1,180 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+    <div class="w-screen h-screen bg-[#171717] px-6 py-4 flex flex-col gap-y-2">
+        <p class="text-t1 text-2xl">Short reads</p>
+
+        <div class="flex flex-col">
+            <p class="text-t1 text-xl mb-1">Anarchist</p>
+
+            <p class="text-t1">
+                <a href="https://theanarchistlibrary.org/library/david-graeber-are-you-an-anarchist-the-answer-may-surprise-you.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Are You An Anarchist? The Answer May Surprise You!</a>
+                by David Graeber (6 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://theanarchistlibrary.org/library/errico-malatesta-an-anarchist-programme.pdf"
+                    target="_blank" class="text-t1 underline">
+                    An Anarchist Programme</a>
+                by Errico Malatesta (13 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://theanarchistlibrary.org/library/strangers-in-a-tangled-wilderness-life-without-law.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Life Without Law</a>
+                by Strangers In a Tangled Wilderness (16 pages)
+            </p>
+        </div>
+
+        <div class="flex flex-col">
+            <p class="text-t1 text-xl mb-1">Communist</p>
+
+            <p class="text-t1">
+                <a href="https://archive.org/download/why-socialism/Why_Socialism.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Why Socialism?</a>
+                by Albert Einstein (5 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://www.marxists.org/archive/marx/works/download/pdf/Manifesto.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Manifesto of the Communist Party</a>
+                by Karl Marx and Frederick Engels (68 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://www.marxists.org/archive/marx/works/download/Marx_Critque_of_the_Gotha_Programme.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Critique of the Gotha Programme</a>
+                by Karl Marx (20 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://www.marxists.org/archive/marx/works/download/pdf/wage-labour-capital.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Wage Labour and Capital</a>
+                by Karl Marx (25 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://www.marxists.org/archive/marx/works/download/pdf/principles-communism.pdf"
+                    target="_blank" class="text-t1 underline">
+                    The Principles of Communism</a>
+                by Frederick Engels (20 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://web.seducoahuila.gob.mx/biblioweb/upload/the_soul_of_man_under_socialism.pdf"
+                    target="_blank" class="text-t1 underline">
+                    The Soul of Man under Socialism</a>
+                by Oscar Wilde (27 pages)
+            </p>
+        </div>
+
+        <div class="flex flex-col">
+            <p class="text-t1 text-xl mb-1">Other</p>
+
+            <p class="text-t1">
+                <a href="https://theanarchistlibrary.org/mirror/a/ay/angela-y-davis-are-prisons-obsolete.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Are Prisons Obsolete?</a>
+                by Angela Y. Davis (51 pages)
+            </p>
+        </div>
+
+        <p class="text-t1 text-2xl mt-4">Long reads</p>
+
+        <div class="flex flex-col">
+            <p class="text-t1 text-xl mb-1">Anarchist</p>
+
+            <p class="text-t1">
+                <a href="https://theanarchistlibrary.org/library/noam-chomsky-on-anarchism.pdf"
+                    target="_blank" class="text-t1 underline">
+                    On Anarchism</a>
+                by Noam Chomsky (90 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://files.libcom.org/files/Bakunin%20-%20God%20and%20the%20State.pdf"
+                    target="_blank" class="text-t1 underline">
+                    God and the State</a>
+                by Michael Bakunin (103 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://files.libcom.org/files/Rocker%20-%20Anarcho-Syndicalism%20Theory%20and%20Practice.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Anarchosyndicalism: Theory and Practice</a>
+                by Rudolf Rocker (176 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://theanarchistlibrary.org/library/peter-gelderloos-anarchy-works.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Anarchy Works</a>
+                by Peter Gelderloos (160 pages)
+            </p>
+        </div>
+
+        <div class="flex flex-col">
+            <p class="text-t1 text-xl mb-1">Communist</p>
+
+            <p class="text-t1">
+                <a href="https://www.marxists.org/archive/marx/works/download/Marx_Contribution_to_the_Critique_of_Political_Economy.pdf"
+                    target="_blank" class="text-t1 underline">
+                    A Contribution to the Critique of Political Economy</a>
+                by Karl Marx (136 pages)
+            </p>
+
+            <p class="text-t1">
+                <a href="https://www.marxists.org/archive/marx/works/download/Engels_Socialism_Utopian_and_Scientific.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Socialism: Utopian and Scientific</a>
+                by Frederick Engels (85 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://www.nypl.org/sites/default/files/davis_-_chapter_4.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Women, Race and Class</a>
+                by Angela Davis (166 pages)
+            </p>
+        </div>
+
+        <div class="flex flex-col">
+            <p class="text-t1 text-xl mb-1">Other</p>
+
+            <p class="text-t1">
+                <a
+                    target="_blank" class="text-t1">
+                    How to Hide an Empire: A History of the Greater United States</a>
+                by Daniel Immerwahr (528 pages)
+            </p>
+            <p class="text-t1">
+                <a
+                    target="_blank" class="text-t1">
+                    Imagining Decolonisation</a>
+                by Bianca Elkington (184 pages)
+            </p>
+            <p class="text-t1">
+                <a
+                    target="_blank" class="text-t1">
+                    This Is Vegan Propaganda</a>
+                by Ed Winters (320 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://ia800201.us.archive.org/29/items/how-not-to-die-michael-greger/How%20not%20to%20die%20-%20Michael%20Greger.pdf"
+                    target="_blank" class="text-t1 underline">
+                    How Not To Die</a>
+                by Michael Greger (681 pages)
+            </p>
+            <p class="text-t1">
+                <a href="https://dialecticalartist.wordpress.com/wp-content/uploads/2021/03/freedom-is-a-constant-struggle.pdf"
+                    target="_blank" class="text-t1 underline">
+                    Freedom Is a Constant Struggle</a>
+                by Angela Davis (175 pages)
+            </p>
+            <p class="text-t1">
+                <a
+                    target="_blank" class="text-t1">
+                    Women, Culture and Politics</a>
+                by Angela Davis (238 pages)
+            </p>
+        </div>
+    </div>
 </Layout>
